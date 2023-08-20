@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: busybox-container
-        image: busybox:latest
+        image: busybox:1.35.0
         # Keep the container running
         command: [ "/bin/sh", "-c", "--" ]
         args: [ "while true; do sleep 30; done;" ]
